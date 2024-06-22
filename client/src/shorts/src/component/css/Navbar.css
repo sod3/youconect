@@ -1,0 +1,33 @@
+/* src/css/Navbar.css */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.uploadSection {
+  display: flex;
+  align-items: center;
+}
+
+.uploadLabel {
+  cursor: pointer;
+  margin-right: 10px;
+  color: white;
+}
+
+.uploadButton {
+  padding: 5px 10px;
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

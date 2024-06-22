@@ -1,0 +1,94 @@
+{
+  "name": "video_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@chakra-ui/toast": "^7.0.2",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@fullcalendar/core": "^6.1.14",
+    "@fullcalendar/daygrid": "^6.1.14",
+    "@fullcalendar/interaction": "^6.1.14",
+    "@fullcalendar/list": "^6.1.14",
+    "@fullcalendar/react": "^6.1.14",
+    "@fullcalendar/timegrid": "^6.1.14",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.6",
+    "@mui/x-data-grid": "^7.6.2",
+    "@nivo/bar": "^0.87.0",
+    "@nivo/geo": "^0.87.0",
+    "@nivo/line": "^0.87.0",
+    "@nivo/pie": "^0.87.0",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@tensorflow-models/body-pix": "^2.2.1",
+    "@tensorflow/tfjs": "^4.20.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "axios": "^0.27.2",
+    "date-fns": "^3.6.0",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "ffmpeg.js": "^4.2.9003",
+    "firebase": "^9.9.0",
+    "formik": "^2.4.6",
+    "framer-motion": "^11.2.10",
+    "pintura": "^0.3.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.0.0",
+    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-hotkeys": "^2.0.0",
+    "react-icons": "^5.2.1",
+    "react-lazyload": "^3.2.1",
+    "react-modal": "^3.16.1",
+    "react-player": "^2.16.0",
+    "react-pro-sidebar": "^1.1.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-share": "^5.1.0",
+    "react-ticker": "^1.3.2",
+    "recoil": "^0.7.7",
+    "redux-persist": "^6.0.0",
+    "socket.io-client": "^4.7.5",
+    "styled-components": "^5.3.5",
+    "timeago.js": "^4.0.2",
+    "video.js": "^8.12.0",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8800/api/",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "eslint-config-prettier": "^9.1.0"
+  }
+}
